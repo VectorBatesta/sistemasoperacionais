@@ -1,0 +1,9 @@
+#transforma .c em .o
+gcc -c exercicio.c
+gcc -c outrosbagulhos.c
+
+#junta os .o em um .exe
+gcc -o executavel exercicio.o outrosbagulhos.o
+
+#roda o .exe
+./executavel
